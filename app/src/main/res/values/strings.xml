@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">greenteam2</string>
+    <string name="action_settings">Settings</string>
+    <string name="Submit">Submit</string>
+    <string name="title_activity_chapter">ChapterActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="large_text2">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit elementum velit nec porta. Ut"
+        "id scelerisque nulla. Sed imperdiet convallis libero, sed consequat est porta a. Donec convallis"
+        "nisi quam, quis accumsan elit dignissim id. Curabitur mollis dolor nulla. Quisque metus mauris,"
+        "ornare eget placerat at, convallis pulvinar ex. Pellentesque habitant morbi tristique senectus et"
+        "netus et malesuada fames ac turpis egestas. In tempor eleifend nulla ut vestibulum. Maecenas nec"
+        "tempor lacus. Ut lobortis, nulla quis condimentum porta, mauris enim elementum nisi, eu ultrices"
+        "ante libero vitae eros. Etiam in elit nisl. Aliquam erat volutpat. Aliquam a convallis mi. Nam"
+        "egestas tempor sem, at imperdiet ante tempor quis. In hac habitasse platea dictumst.\n\n"
+
+        "Sed fermentum euismod nibh vitae semper. Maecenas arcu justo, tempor eu dolor sed, gravida varius odio. Quisque"
+        "interdum enim eget ipsum rutrum, quis accumsan nulla maximus. Duis non hendrerit sem. Curabitur ut"
+        "vulputate augue, nec porttitor nunc. Ut feugiat in risus id dictum. Pellentesque sit amet magna at"
+        "sem semper dignissim. Aenean nisi metus, malesuada a tempor at, bibendum eget ligula. Etiam ac porta"
+        "mauris, in pellentesque metus. Curabitur tristique finibus tempor.\n\n"
+
+        "Aliquam volutpat euismod nisi, at"
+        "pretium ante mollis ac. Donec vehicula dictum orci, a iaculis risus porttitor et. Etiam ornare"
+        "facilisis dolor, eget maximus tellus. Donec suscipit leo sed tortor sollicitudin, eu efficitur dolor"
+        "scelerisque. Donec lobortis ante ac congue condimentum. Suspendisse rutrum tincidunt erat, eu"
+        "faucibus tellus ultrices non. Morbi ac turpis laoreet, tristique diam vitae, imperdiet enim. Fusce"
+        "sed est erat. In sed sem in dui rhoncus hendrerit ut non nisl. Vivamus interdum lacus in ipsum"
+        "sollicitudin, eu consectetur nisl cursus.\n\n"
+
+        "Suspendisse potenti. Lorem ipsum dolor sit amet,"
+        "consectetur adipiscing elit. Duis id lacus massa. Praesent ac ullamcorper leo. Aliquam tortor"
+        "lectus, dictum et lacus quis, condimentum euismod sapien. Morbi dignissim tortor enim, sit amet"
+        "feugiat mi aliquet ut. Integer sed dolor at turpis gravida feugiat non quis ante. Nullam elit metus,"
+        "sagittis non enim sit amet, eleifend porta felis. In id orci sed justo rhoncus feugiat. Praesent"
+        "erat augue, volutpat non odio ut, molestie laoreet enim. Nam dignissim nulla quis semper"
+        "consectetur. Nulla nec ipsum non ligula condimentum commodo. Vestibulum pretium est id enim maximus"
+        "sagittis. Integer sollicitudin odio velit, sed rhoncus leo lacinia eget. Donec non nisl quis tortor"
+        "imperdiet varius lacinia at mi.\n\n"
+
+        "Fusce vehicula euismod libero, sit amet commodo nunc eleifend"
+        "auctor. Vestibulum id ex a dui cursus semper. Phasellus dictum arcu auctor nisi eleifend"
+        "ullamcorper. In ac tellus efficitur, vestibulum ex eget, lobortis ante. Quisque sit amet tellus"
+        "dolor. Sed sapien nibh, pharetra commodo ipsum consectetur, elementum semper massa. Pellentesque sed"
+        "nibh euismod, euismod nisi ac, tempus augue. Maecenas posuere commodo odio, in volutpat erat"
+        "sagittis a. Phasellus quis eros sed turpis bibendum egestas. Etiam posuere imperdiet dolor non rutrum.\n\n"
+
+        "Aenean congue ut tortor id condimentum. Donec at massa pulvinar, ultricies dolor quis,"
+        "suscipit elit. Nulla a nisl quis purus auctor interdum ut non ex. Cras lacinia vehicula arcu, vitae"
+        "posuere nunc. Vivamus in ultrices purus. Maecenas mauris leo, vestibulum a nulla et, hendrerit"
+        "efficitur sem. Nunc nec erat ut lorem porttitor imperdiet eget nec enim. Nunc sed dui molestie,"
+        "ultricies nisl nec, venenatis sem.\n\n"
+
+        "Nullam elementum porttitor nibh, vitae aliquet enim viverra eu."
+        "Fusce vestibulum erat ut odio convallis, nec pretium lectus malesuada. Donec non pharetra tellus,"
+        "vel tincidunt nisl. Sed sed lectus mi. Sed elementum tincidunt elit ac ultricies. Ut ullamcorper"
+        "aliquet lacus, id molestie felis pellentesque vitae. Duis pretium sed urna quis sodales. Curabitur"
+        "egestas porttitor quam at efficitur. Integer eget iaculis ex, porttitor iaculis tortor. Proin"
+        "blandit augue sed lobortis tempus. Aliquam a viverra libero. Aenean ut elit ultricies, mollis magna"
+        "quis, tincidunt nibh. Sed a aliquam tellus. Maecenas ac molestie justo.\n\n"
+
+        "Aliquam nec justo at elit"
+        "ultrices dictum. Nam dolor urna, tempus et est in, fermentum tempus mauris. Vestibulum fringilla"
+        "orci sit amet est dictum ultrices. Sed pretium turpis eget tortor blandit, a dignissim diam"
+        "lobortis. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in"
+        "faucibus. Curabitur quis condimentum orci. Ut accumsan magna et erat facilisis, vitae elementum libero porttitor.\n\n"
+
+        "Nunc sit amet erat gravida, tincidunt ligula nec, euismod quam. Nam semper vitae"
+        "risus vitae aliquet. Aliquam vestibulum sed augue vel finibus. Praesent aliquam aliquam cursus."
+        "Praesent egestas, nulla ut lobortis vulputate, justo mi mollis risus, eu accumsan lorem arcu vitae"
+        "enim. Cras laoreet consectetur nibh, ut pellentesque libero congue ac. Morbi quis porttitor odio."
+        "Pellentesque eu diam arcu. Nam pulvinar commodo diam, ut sagittis massa sollicitudin lobortis. Donec"
+        "mollis, quam ut semper egestas, metus nunc ultrices dui, non porta odio purus sit amet elit. In"
+        "vitae aliquam ante. Ut ut dolor at ante aliquet pharetra. Nullam faucibus ut nisi a cursus. Vivamus"
+        "vulputate hendrerit mauris, sed feugiat ex rutrum quis. Proin sed venenatis dui.\n\n"
+
+        "Proin id sagittis mi. Donec eleifend commodo semper. Nullam sed lacus ut orci ornare fringilla at eget est. Phasellus"
+        "convallis maximus molestie. Nunc euismod, odio non gravida consectetur, orci lorem hendrerit odio, a"
+        "blandit ipsum massa a dolor. Morbi iaculis quam eget maximus ullamcorper. Praesent est ante, gravida"
+        "convallis fermentum condimentum, tempor id elit. Fusce risus arcu, tempor in tellus vitae, pretium"
+        "vehicula orci. Ut lobortis nisi at elit lobortis, ac vehicula diam sodales. Nam fringilla et massa"
+        "sed mattis. In hac habitasse platea dictumst. In dapibus cursus lacinia. Pellentesque at orci eu"
+        "urna tincidunt blandit eu eu ipsum. Aliquam vel tortor felis. Fusce molestie fringilla condimentum."
+    </string>
+    <string name="problem">
+        "Problem: 312y-61-12=0\n\n"
+
+        "Step 1: 312y - 61 - 12 + 12 = 0 + 12\n\n"
+
+        "Step 2: (312y - 61) / 3 = 12 / 3\n\n"
+
+        "Step 3: (12y - 61) + 6 = 4 + 6\n\n"
+
+        "Step 4: (2y)/2 = 10/2\n\n"
+
+        "Answer: y = 5"
+    </string>
+    <string name="title_activity_page">PageActivity</string>
+    <string name="title_activity_problem">ProblemActivity</string>
+    <string name="title_activity_steps">StepsActivity</string>
+</resources>

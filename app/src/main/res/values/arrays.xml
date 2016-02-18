@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="states">
+		<item>State</item>
+		<item>Alabama</item>
+		<item>Alaska</item>
+		<item>American Samoa</item>
+		<item>Arizona</item>
+		<item>Arkansas</item>
+		<item>California</item>
+		<item>Colorado</item>
+		<item>Connecticut</item>
+		<item>Delaware</item>
+		<item>District of Columbia</item>
+		<item>Florida</item>
+		<item>Georgia</item>
+		<item>Guam</item>
+		<item>Hawaii</item>
+		<item>Idaho</item>
+		<item>Illinois</item>
+		<item>Indiana</item>
+		<item>Iowa</item>
+		<item>Kansas</item>
+		<item>Kentucky</item>
+		<item>Louisiana</item>
+		<item>Maine</item>
+		<item>Maryland</item>
+		<item>Massachusetts</item>
+		<item>Michigan</item>
+		<item>Micronesia</item>
+		<item>Minnesota</item>
+		<item>Mississippi</item>
+		<item>Missouri</item>
+		<item>Montana</item>
+		<item>Nebraska</item>
+		<item>Nevada</item>
+		<item>New Hampshire</item>
+		<item>New Jersey</item>
+		<item>New Mexico</item>
+		<item>New York</item>
+		<item>North Carolina</item>
+		<item>North Dakota</item>
+		<item>Northern Marianas Islands</item>
+		<item>Ohio</item>
+		<item>Oklahoma</item>
+		<item>Oregon</item>
+		<item>Palau</item>
+		<item>Pennsylvania</item>
+		<item>Puerto Rico</item>
+		<item>Rhode Island</item>
+		<item>South Carolina</item>
+		<item>South Dakota</item>
+		<item>Tennessee</item>
+		<item>Texas</item>
+		<item>Utah</item>
+		<item>Vermont</item>
+		<item>Virginia</item>
+		<item>Virgin Islands</item>
+		<item>Washington</item>
+		<item>West Virginia</item>
+		<item>Wisconsin</item>
+		<item>Wyoming</item>
+	</string-array>
+
+	<string-array name="cities">
+		<item>City</item>
+		<item>Abbeville</item>
+		<item>Adamsville</item>
+		<item>Addison</item>
+		<item>Akron</item>
+		<item>Alabaster</item>
+		<item>Albertville</item>
+		<item>Alexander City</item>
+		<item>Aliceville</item>
+		<item>Allgood</item>
+		<item>Altoona</item>
+		<item>Andalusia</item>
+		<item>Anderson</item>
+		<item>Anniston</item>
+		<item>Arab</item>
+		<item>Ardmore</item>
+		<item>Argo</item>
+		<item>Ariton</item>
+		<item>Arley</item>
+		<item>Ashford</item>
+		<item>Ashland</item>
+		<item>Ashville</item>
+		<item>Athens</item>
+		<item>Atmore</item>
+		<item>Attalla</item>
+		<item>Auburn</item>
+		<item>Autaugaville</item>
+		<item>Avon</item>
+		<item>Babbie</item>
+		<item>Baileyton</item>
+		<item>Bakerhill</item>
+		<item>Banks</item>
+		<item>Bay Minette</item>
+		<item>Bayou La Batre</item>
+		<item>Bear Creek</item>
+		<item>Beatrice</item>
+		<item>Beaverton</item>
+		<item>Belk</item>
+		<item>Benton</item>
+		<item>Berry</item>
+		<item>Bessemer</item>
+		<item>Billingsley</item>
+		<item>Birmingham</item>
+		<item>Black</item>
+		<item>Blountsville</item>
+		<item>Blue Springs</item>
+		<item>Boaz</item>
+		<item>Boligee</item>
+		<item>Bon Air</item>
+		<item>Brantley</item>
+		<item>Brent</item>
+		<item>Brewton</item>
+		<item>Bridgeport</item>
+		<item>Brighton</item>
+		<item>Brilliant</item>
+		<item>Brookside</item>
+		<item>Brookwood</item>
+		<item>Brundidge</item>
+		<item>Butler</item>
+		<item>Calera</item>
+		<item>Camden</item>
+		<item>Camp Hill</item>
+		<item>Carbon Hill</item>
+		<item>Cardiff</item>
+		<item>Carolina</item>
+		<item>Carrollton</item>
+		<item>Castleberry</item>
+		<item>Cedar Bluff</item>
+		<item>Center Point</item>
+		<item>Centre</item>
+		<item>Centreville</item>
+		<item>Chatom</item>
+		<item>Chelsea</item>
+		<item>Cherokee</item>
+		<item>Chickasaw</item>
+		<item>Childersburg</item>
+		<item>Citronelle</item>
+		<item>Clanton</item>
+		<item>Clay</item>
+		<item>Clayhatchee</item>
+		<item>Clayton</item>
+		<item>Cleveland</item>
+		<item>Clio</item>
+		<item>Coaling</item>
+		<item>Coffee Springs</item>
+		<item>Coffeeville</item>
+		<item>Coker</item>
+		<item>Collinsville</item>
+		<item>Colony</item>
+		<item>Columbia</item>
+		<item>Columbiana</item>
+		<item>Coosada</item>
+		<item>Cordova</item>
+		<item>Cottonwood</item>
+		<item>County Line</item>
+		<item>Courtland</item>
+		<item>Cowarts</item>
+		<item>Creola</item>
+		<item>Crossville</item>
+		<item>Cuba</item>
+		<item>Cullman</item>
+		<item>Cusseta</item>
+		<item>Dadeville</item>
+		<item>Daleville</item>
+		<item>Daphne</item>
+		<item>Dauphin Island</item>
+		<item>Daviston</item>
+		<item>Dayton</item>
+		<item>Deatsville</item>
+		<item>Decatur</item>
+		<item>Demopolis</item>
+		<item>Detroit</item>
+		<item>Dodge City</item>
+		<item>Dora</item>
+		<item>Dothan</item>
+		<item>Double Springs</item>
+		<item>Douglas</item>
+		<item>Dozier</item>
+		<item>Dutton</item>
+		<item>East Brewton</item>
+		<item>Eclectic</item>
+		<item>Edwardsville</item>
+		<item>Elba</item>
+		<item>Elberta</item>
+		<item>Eldridge</item>
+		<item>Elkmont</item>
+		<item>Elmore</item>
+		<item>Emelle</item>
+		<item>Enterprise</item>
+		<item>Epes</item>
+		<item>Ethelsville</item>
+		<item>Eufaula</item>
+		<item>Eutaw</item>
+		<item>Eva</item>
+		<item>Evergreen</item>
+		<item>Excel</item>
+		<item>Fairfield</item>
+		<item>Fairhope</item>
+		<item>Fairview</item>
+		<item>Falkville</item>
+		<item>Faunsdale</item>
+		<item>Fayette</item>
+		<item>Five Points</item>
+		<item>Flomaton</item>
+		<item>Florala</item>
+		<item>Florence</item>
+		<item>Foley</item>
+		<item>Forkland</item>
+		<item>Fort Deposit</item>
+		<item>Fort Payne</item>
+		<item>Franklin</item>
+		<item>Frisco City</item>
+		<item>Fruithurst</item>
+		<item>Fulton</item>
+		<item>Fultondale</item>
+		<item>Fyffe</item>
+		<item>Gadsden</item>
+		<item>Gainesville</item>
+		<item>Gantt</item>
+		<item>Garden City</item>
+		<item>Gardendale</item>
+		<item>Gaylesville</item>
+		<item>Geiger</item>
+		<item>Geneva</item>
+		<item>Georgiana</item>
+		<item>Geraldine</item>
+		<item>Gilbertown</item>
+		<item>Glen Allen</item>
+		<item>Glencoe</item>
+		<item>Glenwood</item>
+		<item>Goldville</item>
+		<item>Good Hope</item>
+		<item>Goodwater</item>
+		<item>Gordo</item>
+		<item>Gordon</item>
+		<item>Gordonville</item>
+		<item>Goshen</item>
+		<item>Grant</item>
+		<item>Graysville</item>
+		<item>Greensboro</item>
+		<item>Greenville</item>
+		<item>Grimes</item>
+		<item>Grove Hill</item>
+		<item>Guin</item>
+		<item>Gulf Shores</item>
+		<item>Guntersville</item>
+		<item>Gurley</item>
+		<item>Gu-Win</item>
+		<item>Hackleburg</item>
+		<item>Haleburg</item>
+		<item>Haleyville</item>
+		<item>Hamilton</item>
+		<item>Hammondville</item>
+		<item>Hanceville</item>
+		<item>Harpersville</item>
+		<item>Hartford</item>
+		<item>Hartselle</item>
+		<item>Hayden</item>
+		<item>Hayneville</item>
+		<item>Headland</item>
+		<item>Heath</item>
+		<item>Heflin</item>
+		<item>Helena</item>
+		<item>Henagar</item>
+		<item>Highland Lake</item>
+		<item>Hillsboro</item>
+		<item>Hobson City</item>
+		<item>Hodges</item>
+		<item>Hokes Bluff</item>
+		<item>Holly Pond</item>
+		<item>Hollywood</item>
+		<item>Homewood</item>
+		<item>Hoover</item>
+		<item>Horn Hill</item>
+		<item>Hueytown</item>
+		<item>Huntsville</item>
+		<item>Hurtsboro</item>
+		<item>Hytop</item>
+		<item>Ider</item>
+		<item>Indian Springs Village</item>
+		<item>Irondale</item>
+		<item>Jackson</item>
+		<item>Jacksons\' Gap</item>
+		<item>Jacksonville</item>
+		<item>Jasper</item>
+		<item>Jemison</item>
+		<item>Kansas</item>
+		<item>Kellyton</item>
+		<item>Kennedy</item>
+		<item>Killen</item>
+		<item>Kimberly</item>
+		<item>Kinsey</item>
+		<item>Kinston</item>
+		<item>La Fayette</item>
+		<item>Lake View</item>
+		<item>Lakeview</item>
+		<item>Lanett</item>
+		<item>Langston</item>
+		<item>Leeds</item>
+		<item>Leesburg</item>
+		<item>Leighton</item>
+		<item>Lester</item>
+		<item>Level Plains</item>
+		<item>Lexington</item>
+		<item>Libertyville</item>
+		<item>Lincoln</item>
+		<item>Linden</item>
+		<item>Lineville</item>
+		<item>Lipscomb</item>
+		<item>Lisman</item>
+		<item>Littleville</item>
+		<item>Livingston</item>
+		<item>Loachapoka</item>
+		<item>Lockhart</item>
+		<item>Locust Fork</item>
+		<item>Louisville</item>
+		<item>Lowndesboro</item>
+		<item>Loxley</item>
+		<item>Luverne</item>
+		<item>Lynn</item>
+		<item>Madison</item>
+		<item>Madrid</item>
+		<item>Magnolia Springs</item>
+		<item>Malvern</item>
+		<item>Maplesville</item>
+		<item>Margaret</item>
+		<item>Marion</item>
+		<item>Maytown</item>
+		<item>McIntosh</item>
+		<item>McKenzie</item>
+		<item>McMullen</item>
+		<item>Memphis</item>
+		<item>Mentone</item>
+		<item>Midfield</item>
+		<item>Midland City</item>
+		<item>Midway</item>
+		<item>Millbrook</item>
+		<item>Millport</item>
+		<item>Millry</item>
+		<item>Mobile</item>
+		<item>Monroeville</item>
+		<item>Montevallo</item>
+		<item>Montgomery</item>
+		<item>Moody</item>
+		<item>Mooresville</item>
+		<item>Morris</item>
+		<item>Mosses</item>
+		<item>Moulton</item>
+		<item>Moundville</item>
+		<item>Mount Vernon</item>
+		<item>Mountain Brook</item>
+		<item>Mulga</item>
+		<item>Munford</item>
+		<item>Muscle Shoals</item>
+		<item>Myrtlewood</item>
+		<item>Napier Field</item>
+		<item>Natural Bridge</item>
+		<item>Nauvoo</item>
+		<item>Nectar</item>
+		<item>Needham</item>
+		<item>New Brockton</item>
+		<item>New Hope</item>
+		<item>New Site</item>
+		<item>Newbern</item>
+		<item>Newton</item>
+		<item>Newville</item>
+		<item>North Courtland</item>
+		<item>North Johns</item>
+		<item>Northport</item>
+		<item>Notasulga</item>
+		<item>Oak Grove</item>
+		<item>Oak Hill</item>
+		<item>Oakman</item>
+		<item>Odenville</item>
+		<item>Ohatchee</item>
+		<item>Oneonta</item>
+		<item>Onycha</item>
+		<item>Opelika</item>
+		<item>Opp</item>
+		<item>Orange Beach</item>
+		<item>Orrville</item>
+		<item>Owens Cross Roads</item>
+		<item>Oxford</item>
+		<item>Ozark</item>
+		<item>Paint Rock</item>
+		<item>Parrish</item>
+		<item>Pelham</item>
+		<item>Pell City</item>
+		<item>Pennington</item>
+		<item>Perdido Beach</item>
+		<item>Petrey</item>
+		<item>Phenix City</item>
+		<item>Phil Campbell</item>
+		<item>Pickensville</item>
+		<item>Piedmont</item>
+		<item>Pike Road</item>
+		<item>Pinckard</item>
+		<item>Pine Apple</item>
+		<item>Pine Hill</item>
+		<item>Pine Ridge</item>
+		<item>Pinson</item>
+		<item>Pisgah</item>
+		<item>Pleasant Grove</item>
+		<item>Pleasant Groves</item>
+		<item>Pollard</item>
+		<item>Powell</item>
+		<item>Prattville</item>
+		<item>Priceville</item>
+		<item>Prichard</item>
+		<item>Providence</item>
+		<item>Ragland</item>
+		<item>Rainbow City</item>
+		<item>Rainsville</item>
+		<item>Ranburne</item>
+		<item>Red Bay</item>
+		<item>Red Level</item>
+		<item>Reece City</item>
+		<item>Reform</item>
+		<item>Rehobeth</item>
+		<item>Repton</item>
+		<item>Ridgeville</item>
+		<item>River Falls</item>
+		<item>Riverside</item>
+		<item>Riverview</item>
+		<item>Roanoke</item>
+		<item>Robertsdale</item>
+		<item>Rockford</item>
+		<item>Rogersville</item>
+		<item>Rosa</item>
+		<item>Russellville</item>
+		<item>Rutledge</item>
+		<item>St. Florian</item>
+		<item>Samson</item>
+		<item>Sand Rock</item>
+		<item>Sanford</item>
+		<item>Saraland</item>
+		<item>Sardis City</item>
+		<item>Satsuma</item>
+		<item>Scottsboro</item>
+		<item>Section</item>
+		<item>Selma</item>
+		<item>Sheffield</item>
+		<item>Shiloh</item>
+		<item>Shorter</item>
+		<item>Silas</item>
+		<item>Silverhill</item>
+		<item>Sipsey</item>
+		<item>Skyline</item>
+		<item>Slocomb</item>
+		<item>Smiths Station</item>
+		<item>Snead</item>
+		<item>Somerville</item>
+		<item>South Vinemont</item>
+		<item>Southside</item>
+		<item>Spanish Fort</item>
+		<item>Springville</item>
+		<item>Steele</item>
+		<item>Stevenson</item>
+		<item>Sulligent</item>
+		<item>Sumiton</item>
+		<item>Summerdale</item>
+		<item>Susan Moore</item>
+		<item>Sweet Water</item>
+		<item>Sylacauga</item>
+		<item>Sylvan Springs</item>
+		<item>Sylvania</item>
+		<item>Talladega Springs</item>
+		<item>Talladega</item>
+		<item>Tallassee</item>
+		<item>Tarrant</item>
+		<item>Taylor</item>
+		<item>Thomaston</item>
+		<item>Thomasville</item>
+		<item>Thorsby</item>
+		<item>Town Creek</item>
+		<item>Toxey</item>
+		<item>Trafford</item>
+		<item>Triana</item>
+		<item>Trinity</item>
+		<item>Troy</item>
+		<item>Trussville</item>
+		<item>Tuscaloosa</item>
+		<item>Tuscumbia</item>
+		<item>Tuskegee</item>
+		<item>Twin</item>
+		<item>Union Grove</item>
+		<item>Union Springs</item>
+		<item>Union</item>
+		<item>Uniontown</item>
+		<item>Valley</item>
+		<item>Valley Grande</item>
+		<item>Valley Head</item>
+		<item>Vance</item>
+		<item>Vernon</item>
+		<item>Vestavia Hills</item>
+		<item>Vina</item>
+		<item>Vincent</item>
+		<item>Vredenburgh</item>
+		<item>Wadley</item>
+		<item>Waldo</item>
+		<item>Walnut Grove</item>
+		<item>Warrior</item>
+		<item>Waterloo</item>
+		<item>Waverly</item>
+		<item>Weaver</item>
+		<item>Webb</item>
+		<item>Wedowee</item>
+		<item>West Blocton</item>
+		<item>West Jefferson</item>
+		<item>West Point</item>
+		<item>Westover</item>
+		<item>Wetumpka</item>
+		<item>White Hall</item>
+		<item>Wilsonville</item>
+		<item>Wilton</item>
+		<item>Winfield</item>
+		<item>Woodland</item>
+		<item>Woodstock</item>
+		<item>Woodville</item>
+		<item>Yellow Bluff</item>
+		<item>York</item>
+	</string-array>
+
+	<string-array name="grades">
+		<item>Grade</item>
+		<item>1st</item>
+		<item>2nd</item>
+		<item>3rd</item>
+		<item>4th</item>
+		<item>5th</item>
+		<item>6th</item>
+		<item>7th</item>
+		<item>8th</item>
+		<item>9th</item>
+		<item>10th</item>
+		<item>11th</item>
+		<item>12th</item>
+	</string-array>
+
+	<string-array name="subjects">
+		<item>Subject</item>
+		<item>English</item>
+		<item>Math</item>
+		<item>Science</item>
+		<item>History</item>
+	</string-array>
+
+	<string-array name="needed">
+		<item>What needed</item>
+		<item>Book</item>
+		<item>Question</item>
+		<item>Website</item>
+	</string-array>
+
+	<string-array name="calculator">
+		<item>Calculator</item>
+		<item>Yes</item>
+		<item>No</item>
+	</string-array>
+
+	<string-array name="campuses">
+		<item>MCPS</item>
+		<item>MA</item>
+		<item>STJ</item>
+		<item>Trinity</item>
+		<item>ACA</item>
+		<item>PCA</item>
+		<item>Hooper</item>
+		<item>BTW</item>
+	</string-array>
+
+	<string-array name="probchoices">
+		<item>Steps</item>
+		<item>Answer</item>
+		<item>Tutor</item>
+	</string-array>
+</resources>
