@@ -172,15 +172,10 @@
     </string>
     <string name="problem">
         "Problem: 312y-61-12=0\n\n"
-
         "Step 1: 312y - 61 - 12 + 12 = 0 + 12\n\n"
-
         "Step 2: (312y - 61) / 3 = 12 / 3\n\n"
-
         "Step 3: (12y - 61) + 6 = 4 + 6\n\n"
-
         "Step 4: (2y)/2 = 10/2\n\n"
-
         "Answer: y = 5"
     </string>
     <string name="title_activity_page">PageActivity</string>

@@ -26,8 +26,8 @@
         android:enabled="true"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        android:inputType="numberDecimal"
-        android:translationZ="5dp"/>
+        android:translationZ="5dp"
+        />
 
     <requestFocus/>
 
@@ -40,7 +40,7 @@
         android:visibility="gone"
         android:id="@+id/calcimg"/>
 
-    <Spinner
+    <com.anigeek.greenteam2.classes.SuperSpinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/problemtext"
